@@ -212,7 +212,7 @@ Serial.println(sensorValue);
 
 }
 
-void count_sisa_liter_bensin(int val_input){
+float count_sisa_liter_bensin(int val_input){
   sisa_liter_bensin = val_input * tankCapacity / 100;
   return sisa_liter_bensin;
 }
